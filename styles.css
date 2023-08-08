@@ -72,7 +72,7 @@ nav div a {
   border: 1px solid black;
   margin: -200px 50px 50px 50px;
   padding-bottom: 150px;
-  height: 200px;
+  height: 650px;
 }
 
 .portfolio-links {
@@ -82,6 +82,35 @@ nav div a {
 .portfolio-links img {
   margin-right: 24px;
   width: 48px;
+}
+
+.portfolio-links img:hover {
+  transform: scale(1.10);
+}
+
+.portfolio-projects-container {
+  margin: 120px 24px 24px 120px;
+}
+
+.portfolio-projects-container p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-bottom: 24px;
+  padding: 4px 8px;
+  border: 1px solid black;
+  width: 102px;
+  border-radius: 10px;
+}
+
+.portfolio-projects-container img {
+  cursor: pointer;
+  height: 250px;
+  border-radius: 40px;
+  margin-right: 24px;
+}
+
+.portfolio-projects-container img:hover {
+  transform: scale(1.10);
 }
 
 .portfolio-email {
@@ -121,6 +150,10 @@ nav div a {
   cursor: pointer;
   margin-left: 24px;
   width: 10%;
+}
+
+.portfolio-send-email .input-container .submit:hover {
+  transform: scale(1.10);
 }
 
 footer {
